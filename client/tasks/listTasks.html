@@ -1,0 +1,18 @@
+<template name="listTasks">
+	<ul>
+		{{#each taskLoad}}
+			{{> task}}
+		{{/each}}
+	</ul>
+</template>
+
+<template name="task">
+	<li>
+		<h1>
+			{{taskSubject}}
+		</h1>
+		<p>
+			{{taskBody}} - added {{howOld}}	
+		</p>
+	</li>
+</template>

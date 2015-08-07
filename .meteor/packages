@@ -10,3 +10,4 @@ insecure
 fezvrasta:bootstrap-material-design
 less
 jquery
+momentjs:moment
